@@ -25,7 +25,6 @@ echo $roundingInterval->forHumans(['parts' => 1]); // 2 weeks
 
 ```bash
 $ composer install
-$ composer dump-autoload
 ```
 
 Then run the tests with
