@@ -1,0 +1,22 @@
+{
+    "name": "tylercollier/carbon-interval-rounding",
+    "description": "Handles rounding in human readable times from CarbonInterval",
+    "type": "project",
+    "require": {
+        "nesbot/carbon": "2.22.3",
+        "phpunit/phpunit": "^8.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tyler Collier",
+            "email": "git@tylercollier.com"
+        }
+    ],
+    "require-dev": {
+        "spatie/phpunit-watcher": "^1.21"
+    },
+    "autoload": {
+      "psr-4": {"App\\":  "src/"}
+    }
+}
