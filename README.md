@@ -1,5 +1,13 @@
 # CarbonInterval Rounding for Humans
 
+## Update
+
+From my comment [here](https://github.com/briannesbitt/Carbon/issues/559#issuecomment-557104313):
+
+The ability to round is now available as part of release 2.27 and has multiple rounding options like ROUND, CEIL, FLOOR. See https://github.com/briannesbitt/Carbon/releases/tag/2.27.0; it pulls in PR #1930. Thanks @kylekatarnls!
+
+## Original README follows
+
 See https://github.com/briannesbitt/Carbon/issues/559
 
 If you do `$now = Carbon\Carbon::now()->addDays(13); $now->diffForHumans(['parts' => 1])`, it says `1 week`. Wouldn't it make more sense to be 2 weeks? With this class, it will round the values so you'll get e.g. 2 weeks. See the test file for some more examples.
